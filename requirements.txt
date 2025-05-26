@@ -1,0 +1,10 @@
+requests
+transformers
+numpy
+sentence-transformers
+streamlit
+langchain
+openai
+dotenv
+langchain-community
+langchain-openai

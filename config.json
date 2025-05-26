@@ -1,0 +1,16 @@
+{
+  "known_packages": [
+    "numpy",
+    "pandas",
+    "tensorflow",
+    "react",
+    "express",
+    "flask",
+    "django",
+    "requests",
+    "lodash",
+    "moment"
+  ],
+  "pypi_api": "https://pypi.org/pypi/{}/json",
+  "npm_api": "https://registry.npmjs.org/{}"
+}
