@@ -19,7 +19,7 @@ class PackageSafetyAnalyzer:
         self.known_packages = set(self.config.get("known_packages", []))
         self.PYPI_API = self.config.get("pypi_api", "https://pypi.org/pypi/{}/json")
         self.NPM_API = self.config.get("npm_api", "https://registry.npmjs.org/{}")
-        self.embedder = SentenceTransformer('all-MiniLM-L6-v2')
+        self.embedder = SentenceTransformer('all-MiniLM-L6-v2', device='cpu')
         self.github_token = github_token
 
     def detect_language(self, code):
