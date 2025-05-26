@@ -8,3 +8,4 @@ openai
 dotenv
 langchain-community
 langchain-openai
+torch
